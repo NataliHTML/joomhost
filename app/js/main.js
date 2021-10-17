@@ -6,6 +6,16 @@ $(function () {
 		slidesToScroll: 2,
 		dots: true,
 		arrows: false,
+		responsive: [
+			{
+				breakpoint: 1106,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				}
+			},]
 	});
-
+	$('.btn__menu').on('click', function () {
+		$('.menu__list').slideToggle();
+	});
 });

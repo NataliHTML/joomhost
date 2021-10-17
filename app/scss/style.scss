@@ -13,6 +13,15 @@
 		min-height: 87px;
 	}
 }
+.btn__menu {
+	width: 40px;
+	display: none;
+}
+.btn__menu div {
+	height: 5px;
+	background-color: #000;
+	margin-bottom: 5px;
+}
 .menu__list {
 	display: flex;
 	li + li {
@@ -314,14 +323,14 @@
 .reviews-slider .slick-list {
 	margin: 0 -50px;
 }
-.reviews-slider .slick-track {
+.reviews-slider .slick-slide {
 	margin: 0 50px;
+	padding-bottom: 70px;
 }
 .reviews-slider .slick-dots {
 	list-style: none;
 	display: flex;
 	justify-content: center;
-	margin-top: 50px;
 	li {
 		margin: 0 8px;
 	}
@@ -342,9 +351,7 @@
 		border: 2px solid #2575e7;
 	}
 }
-.reviews-slider__item {
-	padding-bottom: 50px;
-}
+
 .reviews-box {
 	display: flex;
 	box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
